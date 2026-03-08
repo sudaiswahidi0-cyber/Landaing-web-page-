@@ -36,4 +36,12 @@
     display: block;
     text-align: center;
   }
+  .Testominals .Testominals-heading {
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+  }
+  .Testominals .Testominals-grid {
+    grid-template-columns: 1fr;
+  }
 }

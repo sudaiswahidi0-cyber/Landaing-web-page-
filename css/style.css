@@ -188,3 +188,37 @@ img {
 .video .video-img {
   margin-bottom: 10px;
 }
+
+.bg-dark-ligth {
+  background-color: #000;
+  color: var(--whit-co);
+}
+
+.Testominals {
+  padding: 40px 0;
+}
+.Testominals .Testominals-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.Testominals .Testominals-heading {
+  width: 700px;
+  margin-bottom: 40px;
+}
+.card {
+  background-color: var(--whit-co);
+  color: #000;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.Testominals .card p:nth-child(2) {
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+.card p {
+  font-weight: 500;
+}
