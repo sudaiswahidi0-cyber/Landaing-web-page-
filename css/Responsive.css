@@ -50,4 +50,11 @@
   .faq i {
     display: none;
   }
+  .footer > .card {
+    margin: 0;
+  }
+  .footer .footer-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
 }

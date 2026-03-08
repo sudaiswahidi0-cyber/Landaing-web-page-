@@ -335,3 +335,38 @@ img {
   color: #333;
   background-color: var(--pryamer-color);
 }
+
+.footer .footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.footer {
+  padding: 40px 0;
+}
+.card {
+  margin: 30px 20px 20px 0;
+}
+.footer {
+  margin-bottom: 10px;
+}
+.footer a {
+  color: #ccc;
+}
+.footer i {
+  font-size: 1rem;
+}
+
+.footer i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+.footer input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 10px;
+  border: 1px solid #f4f4f6;
+}
