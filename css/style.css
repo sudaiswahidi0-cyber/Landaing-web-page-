@@ -222,3 +222,29 @@ img {
 .card p {
   font-weight: 500;
 }
+
+.priciing .priciing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+}
+.priciing .text-sub-pricing {
+  margin-bottom: 30px;
+}
+
+.priciing .priciing-text-card {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+  padding: 20px 0;
+}
+.priciing ul {
+  margin: 30px;
+}
+.priciing ul li {
+  margin-bottom: 30px;
+}
+.priciing ul li i {
+  margin-right: 10px;
+}
+ .priciing ul li  
