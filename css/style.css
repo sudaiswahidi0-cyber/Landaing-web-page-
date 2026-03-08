@@ -156,6 +156,7 @@ img {
 .btn-prmier {
   background-color: var(--pryamer-color);
   color: var(--whit-co);
+  text-align: center;
 }
 
 .btn-block {
@@ -247,4 +248,3 @@ img {
 .priciing ul li i {
   margin-right: 10px;
 }
- .priciing ul li  

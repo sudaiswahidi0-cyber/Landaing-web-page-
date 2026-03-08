@@ -44,4 +44,7 @@
   .Testominals .Testominals-grid {
     grid-template-columns: 1fr;
   }
+  .priciing .priciing-grid {
+    grid-template-columns: 1fr;
+  }
 }
