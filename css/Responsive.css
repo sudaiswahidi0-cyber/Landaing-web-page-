@@ -5,4 +5,25 @@
   .humbrger {
     display: block;
   }
+  .hero-content,
+  .hero-text {
+    width: 100%;
+    text-align: center;
+  }
+  .hero .container {
+    background-image: url("/images/hero-bg-mobile.png");
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+    background-position: bottom center;
+    height: 770px;
+  }
+  .text-xxl {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .hero-btn .btn {
+    display: block;
+    width: 100%;
+    margin: 6px 0;
+  }
 }
