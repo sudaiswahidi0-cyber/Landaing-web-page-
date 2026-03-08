@@ -79,6 +79,10 @@ img {
   background-color: var(--pryamer-color);
   color: var(--whit-co);
 }
+.btn-dark:hover {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
 .humbrger {
   display: none;
 }
@@ -147,6 +151,7 @@ img {
 .btn-dark {
   background-color: var(--dark-color);
   color: var(--whit-co);
+  transition: 0.5s;
 }
 .btn-prmier {
   background-color: var(--pryamer-color);
@@ -156,4 +161,30 @@ img {
 .btn-block {
   display: block;
   width: 100%;
+}
+
+.bg-dark {
+  background-color: var(--dark-color);
+  color: var(--whit-co);
+}
+.bg-wite {
+  background-color: var(--light-color);
+}
+.bg-pr {
+  background-color: var(--pryamer-color);
+  color: var(--pryamer-color);
+}
+
+.video {
+  padding: 10px 0 40px;
+}
+
+.video .video-p {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.video .video-img {
+  margin-bottom: 10px;
 }
